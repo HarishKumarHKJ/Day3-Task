@@ -1,0 +1,17 @@
+Question 3:
+
+3.Read About The Difference Between Window, Screen And Document In Javascript
+
+Ans:
+  Window:
+     The window object is the topmost object of the DOM hierarchy.The document object is your html, php or other document that will be loaded into the browser. 
+     The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.Whenever a window appears on the 
+     screen to display the contents of the document,the window object is created.
+     
+  Screen:
+     Screen is window property that holds information of browser user screen. It refers to screen object associated with that window object. 
+     Used to display screen width, height, colorDepth, pixelDepth
+     
+  Document:
+     The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. 
+     With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
