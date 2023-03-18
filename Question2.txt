@@ -1,0 +1,52 @@
+Question :
+  2.Create Your Own Resume In JSON Format
+  
+  ANS:
+    let myResume={
+    "basics": {
+      "name": "Harish Kumar C",
+      "email": "hari007crgha@gmail.com",
+      "phone": 7619117456,
+      "degree": "BCA",
+      "location": {
+        "address": "91/9 Ganesh Temple Street",
+        "postalCode": 560076,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      },
+    },
+    "work": [
+      {
+        "company": "Paytm Service Private limited",
+        "position": "Field Executive",
+        "startDate": "2016-12-14",
+        "endDate": "2020-03-30",
+      },
+    ],
+    "education": [
+      {
+        "institution": "SSS Arts And Science College",
+        "department": "Computer Application",
+        "start year": 2012,
+        "end year": 2015,
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML,CSS,javascript",
+        "level": "beginner",
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish,Telugu,Kannada",
+      }
+    ],
+    "interests": [
+      {
+        "name": "Story Writting,Books Readings,",
+      }
+    ]
+  }
+  console.log(myResume);
