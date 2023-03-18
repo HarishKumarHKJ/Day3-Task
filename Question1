@@ -1,0 +1,75 @@
+Question 1:
+
+   1.For The Given JSON Iterate Over All For Loops(for, for in, for of, for each)
+
+ANS:
+
+a) For Loop
+
+  var json = [{
+    "name" : "Hari", 
+    "age"   : "27",
+    "nationality" : "Indian",
+},
+{
+    "name" : "Harish Kumar", 
+    "age"   : "27",
+    "nationality" : "Indian",
+}];
+    for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.name);
+    console.log(obj.age);
+    console.log(obj.nationality);
+}
+
+b) For in
+
+  var json = [{
+    "name" : "Hari", 
+    "age"   : "27",
+    "nationality" : "Indian",
+},
+{
+    "name" : "Harish Kumar", 
+    "age"   : "27",
+    "nationality" : "Indian",
+}];
+ for (var key in json) {
+if (json.hasOwnProperty(key)) {
+  console.log(json[key].name); 
+}
+}
+
+c) For Of
+
+  var json = [{
+    "name" : "Hari", 
+    "age"   : "27",
+    "nationality" : "Indian",
+},
+{
+    "name" : "Harish Kumar", 
+    "age"   : "27",
+    "nationality" : "Indian",
+}];
+let text = "";
+for (let x of json[key].name) {
+ text += x; 
+}
+ console.log(text);
+
+c) For Each
+
+  var json = [{
+    "name" : "Hari", 
+    "age"   : "27",
+    "nationality" : "Indian",
+},
+{
+    "name" : "Harish Kumar", 
+    "age"   : "27",
+    "nationality" : "Indian",
+}];
+json.forEach(function(obj) { console.log(obj.age); });
